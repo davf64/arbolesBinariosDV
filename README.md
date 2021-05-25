@@ -1,28 +1,28 @@
 # Arboles binarios con persistencia de datos
 
-_Programa que permite la creacion de arboles binarios y realizar busquedas en ancestros comunes, se incluye persistencia de datos por medio de SQLILE3._
+_Programa que permite la creación de árboles binarios y realizar búsquedas en ancestros comunes, se incluye persistencia de datos por medio de SQLite3._
 
 ## Comenzando 🚀
 
-_El codigo fuente se encuentra en el directorio "arbolesBinariosDV", el ejecutable se encuentra en el directorio "Release"._
+_El código fuente se encuentra en el directorio "arbolesBinariosDV", el ejecutable se encuentra en el directorio "Release"._
 
 ### Pre-requisitos 📋
 
-_Para compilar se requiere Visual Studio (C++), el ejecutable no tiene pre-requisitos, se debe descargar el contenido de repositorio y almacenarlo de manera local._
+_Para compilar se requiere Visual Studio (C++), el ejecutable no tiene pre-requisitos, se debe descargar el contenido de repositorio y almacenarlo de manera local. _
 
 ### Instalación 🔧
 
-_Abrir Visual Studio, en menu Archivo -> Abrir -> Proyecto o Solucion_
+_Abrir Visual Studio, en menú Archivo -> Abrir -> Proyecto o Solución_
 
 _En la ventana emergente buscar el archivo "arbolesBinariosDV.sln, click en Abrir"_
 
-_Click en el menu Compilar -> Compilar Solucion_
+_Click en el menú Compilar -> Compilar Solución_
 
-_Presionar F5 para iniciar la ejecucion, de igual manera se puede ejecutar el archivo "arbolesBinariosDV.exe" del directorio Release_
+_Presionar F5 para iniciar la ejecución, de igual manera se puede ejecutar directamente el archivo "arbolesBinariosDV.exe" del directorio Release_
 
-## Ejecutando el program ⚙️
+## Ejecutando el programa ⚙️
 
-_El programa presenta un menu con las siguientes opciones:_
+_El programa presenta un menú con las siguientes opciones:_
 
 ```
 ======================================
@@ -36,12 +36,12 @@ Ingrese Una Opcion:
 (6) Salir
 ```
 
-_Se debe digitar el numero correspondiente a la opcion requerida y presionar Enter_
+_Se debe digitar el número correspondiente a la opción requerida y presionar Enter_
 
-_La opcion 1: permite adicionar un nodo al arbol binario, si el arbol esta vacio el primer valor corresponderia a la raiz del arbol binario._
-_De igual manera el nodo es agregado en una tabla en la Base de Datos para mantener la persistencia._
+_La opción 1: permite adicionar un nodo al árbol binario, si el árbol está vacío el primer valor correspondería a la raíz del árbol binario. _
+_De igual manera el nodo es agregado en una tabla en la Base de Datos para mantener la persistencia. _
 
-_La opcion 2: visualizar el arbol binario desde la raiz a las hojas de manera horizontal, ejemplo:_
+_La opción 2: visualizar el árbol binario desde la raíz a las hojas de manera horizontal, ejemplo:_
 ```
       13
    10
@@ -51,19 +51,19 @@ _La opcion 2: visualizar el arbol binario desde la raiz a las hojas de manera ho
    5
       2
 ```
-_La opcion 3: dado dos numeros enteros se realiza la busqueda de su ancentro comun, por ejemplo de arbol anterior:_
+_La opción 3: dado dos números enteros se realiza la búsqueda de su ancestro común, por ejemplo, de árbol anterior: _
 ```
-Ancestro comun entre 2 y 7 es 5.
-Ancestro comun entre 5 y 9 es 8.
-Ancestro comun entre 7 y 11 retornaria un mensaje indicando que el numero 11 no se encuentra en el arbol.
+Ancestro común entre 2 y 7 es 5.
+Ancestro común entre 5 y 9 es 8.
+Ancestro común entre 7 y 11 retornaría un mensaje indicando que el numero 11 no se encuentra en el árbol.
 ```
-_La opcion 4: Realiza la carga de los valores del arbol binario desde la base de datos, permitiendo recuperar el ultimo arbol binario generado._
-_Si al ejecutar el programa se ingrea por esta opcion se carga en memoria el ultimo arbol binario generado por el programa._
-_Si existia un arbol cargado en memoria, es reemplazado por el arbol binario reconstruido a partir de los datos almacenados._
+_La opción 4: Realiza la carga de los valores del árbol binario desde la base de datos, permitiendo recuperar el ultimo árbol binario generado. _
+_Si al ejecutar el programa se ingresa por esta opción se carga en memoria el ultimo árbol binario generado por el programa. _
+_Si existía un árbol cargado en memoria, es reemplazado por el árbol binario reconstruido a partir de los datos almacenados. _
 
-_La opcion 5: Elimina el arbol binario (si ya existe uno) en la base de datos y en memoria._
+_La opción 5: Elimina el árbol binario (si ya existe uno) en la base de datos y en memoria. _
 
-_La opcion 6: Termina la ejecucion del programa._
+_La opción 6: Termina la ejecución del programa. _
 
 ### Pruebas Unitarias 🔩
 
@@ -71,8 +71,8 @@ _Dentro del repositorio se encuentra el documento de pruebas unitarias correspon
 
 ## Construido con 🛠️
 ```
-Visual Studio 2019
-SQLite version 3
+Microsoft Visual C++ 2019, Versión 16.9.6
+SQLite3
 ```
 
 ## Versionado 📌
@@ -87,4 +87,4 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
 ## Expresiones de Gratitud 🎁
 
-* Es mi primer aporte, agradezco comentarios y criticas constructivas 📢
+* Es mi primer aporte, agradezco comentarios y críticas constructivas 📢
