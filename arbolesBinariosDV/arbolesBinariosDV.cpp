@@ -17,6 +17,7 @@
 #include <sqlite3.h>
 
 
+
 using namespace std;
 
 struct nodo {
@@ -143,7 +144,7 @@ void poblarArbol(raiz& arbol, const char* db_dir)
 
 	cout << "Ingrese el numero de nodos para adicionar al arbol: ";
 	cin >> n;
-	cout << endl; 
+	cout << endl;
 
 	for (i = 0; i < n; i++)
 	{
